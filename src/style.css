@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color:bisque;
+}
+
+ p{
+     font-size:20px;
+     color: brown;
+ }
+ .square {
+    width: 50px;
+    height: 50px;
+ }
+ .wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+.container{
+    border:5px solid#589FE1;
+    width: 140px;
+    height: 80px;
+    padding:10px;
+    margin:20px;
+    float:left;
+    justify-content: center;
+    border-radius: 15px;
+    background-color:#6EDDE1 ;
+    color:blue;
+    font-size: larger;
+}
