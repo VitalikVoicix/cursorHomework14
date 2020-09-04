@@ -8,12 +8,7 @@
  import{playSound} from "./hw7/index"
  import{getRandomChinese,input5,answer5} from "./hw8/index"
  import{heroes,show} from "./hm9/index"
-
- 
- 
-
-
-
+ import "./style.css"
 
 let   transformName =function () {
     
@@ -66,3 +61,6 @@ btn5.addEventListener("click",() =>{
 ///////////////////////////////////
 const btn = document.querySelector(".btn8");
         btn.addEventListener("click",show);
+
+
+ 
